@@ -1,3 +1,6 @@
+# Big Updates are queued. Star to get notified!
+
+
 # Tiny Console Logger
 
 A very simple but visually pleasing console logger for JavaScript.
