@@ -13,36 +13,11 @@
 <body>
 
     <p>lolol</p>
-    <!-- <script src="https://cdn.jsdelivr.net/gh/jmcrafter26/tiny-console-logger/tinylogger.min.js"> -->
-    <!-- </script> -->
 
-    <script src="./v2.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/jmcrafter26/vibrant-logger.js/VibrantLogger.min.js"></script>
 
     <script>
-
-
-        // Usage:
-        // const customColors = {
-        //     INFO: "#FF00FF",
-        //     WARN: "#FFFF00",
-        //     ERRR: "#FF0000",
-        //     SUCCESS: "#00FF00",
-        //     DEBUG: "#0000FF",
-        //     UNKNOWN: "#808080",
-        //     background: "#FFFFFF"
-        // };
-
-        const config = {
-            name: "lol",
-            theme: "dark",
-            style: "auto",
-            // customColors: customColors,
-        }
-
-        // const logger = new Logger("time");
-        const logger = new Logger(config);
-
-
+        const logger = new Logger();
 
         logger.log("This is a log message");
         logger.info("This is an info message");
