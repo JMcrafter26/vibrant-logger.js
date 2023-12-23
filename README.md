@@ -5,10 +5,11 @@ A very simple but visually pleasing console logger for JavaScript.
 ## Table of Contents
 
 - [Tiny Console Logger](#tiny-console-logger)
+  - [Table of Contents](#table-of-contents)
   - [Features](#features)
   - [Installation](#installation)
-    - [CDN](#cdn)
-    - [Local](#local)
+    - [Simple](#simple)
+    - [File](#file)
     - [Inlined](#inlined)
   - [Usage](#usage)
   - [Themes](#themes)
@@ -25,19 +26,20 @@ A very simple but visually pleasing console logger for JavaScript.
 
 ## Installation
 
+There are two ways to install the library:
+
+- [Simple](#simple)
+- [Advanced](#advanced)
+
+### Simple
+
 Include the `tinylogger.js` (or `tinylogger.min.js`) file in your project.
 
-### CDN
-
-You can use the following URL to load the latest version of the library:
-
-```html
-<script src="https://cdn.jsdelivr.net/gh/jmcrafter26/tinylogger/tinylogger.min.js"></script>
-```
-
-### Local
+### File
 
 You can download the `tinylogger.js` or `tinylogger.min.js` file and include it in your project.
+
+It's recommended to 
 
 ```html
 <script src="tinylogger.min.js"></script>
@@ -46,6 +48,7 @@ You can download the `tinylogger.js` or `tinylogger.min.js` file and include it 
 ### Inlined
 
 You can also directly inline the code in your project, e.g. in your `html` or `js` file.
+**Note:** This is a stripped down version of the `tinylogger.js` file, perfect for tiny projects.
 
 ```js
     function log(o="INFO",d){var r;r={INFO:"#82AAFF",WARN:"#FFCB6B",ERROR:"#FF5370",SUCCESS:"#C3E88D",DEBUG:"#d382ff",UNKNOWN:"#abb2bf",background:"#434C5E"},console.log("%c [NAME OF YOUR APP] "+o+" %c "+d+" ","background: "+r[o]+"; color: "+r.background+"; padding: 1px; border-radius: 3px 0 0 3px;","background: "+r.background+"; color: "+r[o]+"; padding: 1px; border-radius: 0 3px 3px 0;")}
