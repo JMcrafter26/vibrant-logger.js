@@ -2,6 +2,10 @@
 
 ![Thumbnail](./images/Vibrant-Logger-thumbnail.png)
 
+<img src="https://api.jm26.net/badge?g&label=Vibrant&message=Logger.js&color=434C5E&labelcolor=C3E88D" height="20px" alt="Vibrant Logger.js" style="display: inline-block; vertical-align: middle;">
+<img src="https://api.jm26.net/badge/beta?g&label=Stars&url=/github/stars/jmcrafter26/vibrant-logger.js" height="20px" alt="Stars " style="display: inline-block; vertical-align: middle;">
+<img src="https://api.jm26.net/badge/beta?g&label=Release&url=/github/v/release/jmcrafter26/vibrant-logger.js" height="20px" alt="Release " style="display: inline-block; vertical-align: middle;">
+
 A very simple but visually pleasing console logger for JavaScript.
 
 ## Table of Contents
