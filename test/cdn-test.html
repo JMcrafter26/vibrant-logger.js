@@ -14,10 +14,13 @@
 
     <p>lolol</p>
 
-    <script src="https://cdn.jsdelivr.net/gh/jmcrafter26/vibrant-logger.js/VibrantLogger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/JMcrafter26/vibrant-logger.js/VibrantLogger.min.js"></script>
 
     <script>
-        const logger = new Logger();
+        const logger = new Logger({
+            name: "Test",
+            theme: "light",
+        });
 
         logger.log("This is a log message");
         logger.info("This is an info message");
@@ -27,13 +30,6 @@
         logger.debug("This is a debug messageThis is a debug messageThis is a debug messageThis is a debug messageThis is a debug messageThis is a debug messageThis is a debug message");
         logger.unknown("This is an unknown message");
 
-        // setInterval(() => {
-        //     // get dev tools width, by getting the difference between the outer width and the inner width
-        //     const devToolsWidth = window.outerWidth - window.innerWidth;
-        //     console.log("outerWidth: " + window.outerWidth);
-        //     console.log("innerWidth: " + window.innerWidth);
-        //     console.log("devToolsWidth: " + devToolsWidth);
-        // }, 1000);
     </script>
 </body>
 
