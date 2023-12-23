@@ -1,7 +1,7 @@
 
 # Tiny-Logger.js
 
-![Thumbnail](./images/Tiny-Logger-thumbnail.png)
+![Thumbnail](./images/Vibrant-Logger-thumbnail.png)
 
 The stripped down version of the library. It only contains the most basic features and is perfect for tiny projects. It doesn't require any setup and is design to be pasted directly into your project.
 

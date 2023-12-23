@@ -14,6 +14,7 @@ A simple but visually pleasing console logger for JavaScript.
     - [File](#file)
   - [Usage](#usage)
   - [Customization](#customization)
+    - [Name](#name)
     - [Themes](#themes)
     - [Styles](#styles)
 
@@ -95,7 +96,13 @@ const logger = new Logger({
 ```
 
 <details>
-<summary>Click here to learn more about the different themes and styles.</summary>
+<summary>Click here to learn more</summary>
+
+### Name
+
+By default, the name of the logger is empty. You can change this by setting the `name` option.
+
+There is also a special option called `time`. If you set the `name` option to `time`, the logger will display the current time instead of the name.
 
 ### Themes
 

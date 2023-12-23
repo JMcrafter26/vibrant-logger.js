@@ -1,6 +1,6 @@
 # Vibrant-Logger.js
 
-![Thumbnail](./images/thumbnail.png)
+![Thumbnail](./images/Vibrant-Logger-thumbnail.png)
 
 A very simple but visually pleasing console logger for JavaScript.
 
