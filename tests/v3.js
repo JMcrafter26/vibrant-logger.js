@@ -68,13 +68,10 @@ class Logger {
         var stack = new Error().stack;
       var stackArray = stack.split("\n");
       var fileName = stackArray[2].split("/").pop().split(":")[0];
-      if (this.name === "filename") this.name = fileName;
-    
-    
-        var stack = new Error().stack;
-        var stackArray = stack.split("\n");
-        // This does not really work, but it's the best I can do
-        var fileName = stackArray[2].split("/").pop().split(":")[0];
+      var remoteFileName = stackArray[3].split("/").pop().split(":")[0];
+      var remoteFileNumber = stackArray[3].split("/").pop().split(":")[1];
+      var remoteFile = remoteFileName + ":" + remoteFileNumber;
+      if (this.name === "file") this.name = remoteFile;
     
         const msgBreak =
           (message.length + type.length + this.name.length + 6) * 7 >
